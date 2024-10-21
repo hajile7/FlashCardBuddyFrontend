@@ -1,0 +1,22 @@
+@model List<FlashCardBuddyFrontend.Models.Flashcard>
+
+<body>
+    <h1>All Flashcards</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Question</th>
+                <th>Answer</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Flashcard in Model)
+            {
+                <tr>
+                    <td>@Flashcard.Question</td>
+                    <td>@Flashcard.Answer</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>

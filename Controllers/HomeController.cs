@@ -6,6 +6,7 @@ namespace FlashCardBuddyFrontend.Controllers;
 
 public class HomeController : Controller
 {
+    
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
@@ -19,6 +20,11 @@ public class HomeController : Controller
     }
 
     public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    public IActionResult Registration()
     {
         return View();
     }

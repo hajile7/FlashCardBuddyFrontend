@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FlashCardBuddyFrontend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c556e06e2079a472279995efb927802df624bd6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+458a215d7188536f7cf08b683a311d12e52ec52d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FlashCardBuddyFrontend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FlashCardBuddyFrontend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

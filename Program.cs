@@ -1,7 +1,13 @@
+using FlashCardBuddyFrontend.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddHttpClient<UserService>(client =>
+{
+    client.BaseAddress = new Uri("https://localhost:7244"); // Add your backend API base URL here
+});
 
 var app = builder.Build();
 
